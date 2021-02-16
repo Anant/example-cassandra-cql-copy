@@ -78,7 +78,7 @@ As mentioned before, we will “transform” the CSV that we exported. However, 
 
 11. Make sure you are in the cql-copy directory on your local machine. Then run the following command using the Docker container ID that we got before:
 ```bash
-docker cp /path/to/directory container_ID:/
+docker cp duration_by_journey_summary.csv container_ID:/
 ```
 
 12. To confirm that the file was added to the root level of the Docker container, run the following in the terminal / terminal tab running Docker bash:
